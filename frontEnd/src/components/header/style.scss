@@ -1,0 +1,45 @@
+.options {
+    background-color: var(--left-side-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+
+.options .logo a {
+    color: #E7485D;
+    font-size: 30px
+}
+
+
+.options .icons {
+    color: var(--not-select-ico-color);
+    display: flex;
+    gap: 3rem;
+    font-size: 20px;
+    
+
+    a{
+        text-decoration: none;
+        color: var(--not-select-ico-color);
+        cursor: pointer;
+    }
+    .selected{
+        color: var(--selected-ico-color);
+        cursor: not-allowed;
+    }
+}
+
+.options .icons i.in_used {
+    color: var(--selected-ico-color);
+}
+
+.options .user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid var(--red-color-001);
+
+}
